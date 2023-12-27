@@ -1,0 +1,158 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "Catch2-build/src/libCatch2Maind.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"add_cxx_flag_if_supported_to_targets",
+			"add_build_reproducibility_settings"
+		],
+		"files" : 
+		[
+			"/home/max/Catch2/src/CMakeLists.txt",
+			"/home/max/Catch2/CMake/CatchMiscFunctions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 401,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 406,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 404,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 118,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffile-prefix-map=/home/max/Catch2/="
+				},
+				{
+					"fragment" : "-std=gnu++20"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/max/Catch2/src/catch2/.."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/max/NTLGY_CPP_Home/assignment5.4/assignment5.4_2_QC_folder/build-assignment5_4__2_QC-Desktop-Debug/Catch2-build/generated-includes"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2,
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Catch2::@e6e5abd949fd72ff392a"
+		}
+	],
+	"id" : "Catch2WithMain::@e6e5abd949fd72ff392a",
+	"name" : "Catch2WithMain",
+	"nameOnDisk" : "libCatch2Maind.a",
+	"paths" : 
+	{
+		"build" : "Catch2-build/src",
+		"source" : "/home/max/Catch2/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/home/max/Catch2/src/catch2/internal/catch_main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

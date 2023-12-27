@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/assignment5_4__2_QC.dir/main.cpp.o -o assignment5_4__2_QC 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/assignment5_4__2_QC_TEST.dir/test_main.cpp.o CMakeFiles/assignment5_4__2_QC_TEST.dir/list.cpp.o -o assignment5_4__2_QC_TEST  Catch2-build/src/libCatch2d.a 

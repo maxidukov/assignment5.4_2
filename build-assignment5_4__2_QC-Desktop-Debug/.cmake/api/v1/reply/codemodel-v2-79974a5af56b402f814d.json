@@ -1,0 +1,127 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Catch2-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-Catch2-build-Debug-d444e7c2b9491560b46f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/max/Catch2"
+				},
+				{
+					"build" : "Catch2-build/src",
+					"jsonFile" : "directory-Catch2-build.src-Debug-b4dc61b7aa954e93c704.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/max/Catch2/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "assignment5_4__2_QC",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2::@e6e5abd949fd72ff392a",
+					"jsonFile" : "target-Catch2-Debug-3bd95c40957646c206d5.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2WithMain::@e6e5abd949fd72ff392a",
+					"jsonFile" : "target-Catch2WithMain-Debug-b4db059b710e39a9af07.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment5_4__2_QC_TEST::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment5_4__2_QC_TEST-Debug-41dc92e9b5ec07b25ebc.json",
+					"name" : "assignment5_4__2_QC_TEST",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/max/NTLGY_CPP_Home/assignment5.4/assignment5.4_2_QC_folder/build-assignment5_4__2_QC-Desktop-Debug",
+		"source" : "/home/max/NTLGY_CPP_Home/assignment5.4/assignment5.4_2_QC_folder/assignment5_4__2_QC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
